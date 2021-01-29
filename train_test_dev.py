@@ -83,7 +83,7 @@ def main():
     
     # 2. Clean the training corpus:
     print("Cleaning ...")
-    src['train'], trg['train'] = clean(src['train'], trg['train'], int(args.cutoff))
+    # src['train'], trg['train'] = clean(src['train'], trg['train'], int(args.cutoff))
     print("done.")
     
     # 3. now we are ok to save the data into train, test and dev files
