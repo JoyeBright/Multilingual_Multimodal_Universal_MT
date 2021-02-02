@@ -48,7 +48,7 @@ def PersianTokenizer(w):
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Process some integers.')
+    parser = argparse.ArgumentParser(description='Tokenization step for NMT')
     parser.add_argument('--source', '-s', required=True, help="source data path (.txt)")
     parser.add_argument('-srclan', required=True, help="what language is your source data", choices=['English', 'Persian'])
     parser.add_argument('--target', '-t', required=True, help="target data path (.txt)")
