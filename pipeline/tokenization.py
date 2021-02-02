@@ -108,12 +108,12 @@ def main():
         print("BPE subword done ...")
 
     if args.sentencepiece == "yes":
-        print("Sentencepience model is learning ...")
+        print("Sentencepiece model is learning ...")
         if args.srclan == 'English':
             sentencepiece(args.source)
         else:
             sentencepiece(args.target)
-        print("Sentencepience done ...")
+        print("Sentencepiece done ...")
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
